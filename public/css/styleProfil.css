@@ -1,0 +1,154 @@
+@import url('http://fonts.googleapis.com/css/family=Quicksand:400,500&subset=latin-ext');
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: white;
+}
+.dropdown{
+    margin: 0 auto;
+}
+nav{
+    height: 150px;
+    background-color: #E6BA95;
+}
+.logo{
+    color: white;
+    padding: 50px 0 0 50px;
+    width: 200px;
+    height: auto;
+    font-size: 30px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    background: #E6BA95;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background: #BE8C63;
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+main{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 100px;
+}
+.img{
+    background-image: url(..\img\ima.jpeg);
+    background-color: #eaeaea;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    margin: 0;
+    font-weight: bold;
+    color: #A97155;
+}
+.text{
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: #BE8C63;
+}
+p{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 600px;
+    height: auto;
+    color: #DAB88B;
+}
+.footer{
+    margin-top: 20px;
+    background-color: #E6BA95;
+    height: 200px;
+    width: 100%;
+    padding-top: 40px;
+    color: white;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+.container ul{
+    list-style: none;
+    padding: 0px;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 5px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #A97155;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 30px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+}
+.social-links i{
+    color: white;
+    padding: 10px;
+}
